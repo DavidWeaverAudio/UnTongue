@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Audio Classifier",
+    "version": "1.0",
+    "description": "Classify audio using TensorFlow.js",
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icons/icon16.png"
+      }
+    },
+    "permissions": ["activeTab", "tabs", "storage","audioCapture"]
+    
+  }
+  
