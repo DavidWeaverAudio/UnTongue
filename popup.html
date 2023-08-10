@@ -1,18 +1,18 @@
 <!DOCTYPE html>
-<html>
 <head>
-    <title>Audio Classifier</title>
+    <meta charset="UTF-8">
+    <title>UnTongue</title>
+
 </head>
+<html>
 <body>
-    <div>Teachable Machine Audio Model</div>
-    <button type="button" onclick="init()">Start</button>
+    <button id="startButton">Start</button>
     <div id="label-container"></div>
 
-    <!-- Include TensorFlow.js libraries -->
     <script src="tf.min.js"></script>
     <script src="speech-commands.min.js"></script>
 
-    <!-- Your main script -->
     <script src="popup.js"></script>
+    <script src="background.js"></script>
 </body>
 </html>

@@ -1,1 +1,10 @@
-{"tfjsSpeechCommandsVersion":"0.4.0","modelName":"TMv2","timeStamp":"2023-08-10T11:04:02.401Z","wordLabels":["Background Noise","Content","Mouth Clicks"]}
+{
+    "tfjsSpeechCommandsVersion": "0.4.0",
+    "modelName": "TMv2",
+    "timeStamp": "2023-08-10T11:04:02.401Z",
+    "wordLabels": [
+        "Background Noise",
+        "Content",
+        "Mouth Clicks"
+    ]
+}
