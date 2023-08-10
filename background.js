@@ -1,6 +1,6 @@
 console.log("Background script loaded");
-const scriptURL = chrome.runtime.getURL('tf.min.js');
-importScripts(scriptURL);
+const tf = require('@tensorflow/tfjs');
+
 console.log("loaded tf")
 const URL = chrome.runtime.getURL("my_model/");
 let recognizer;

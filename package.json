@@ -1,0 +1,28 @@
+{
+  "name": "untongue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "background.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidWeaverAudio/UnTongue.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DavidWeaverAudio/UnTongue/issues"
+  },
+  "homepage": "https://github.com/DavidWeaverAudio/UnTongue#readme",
+  "devDependencies": {
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-node-externals": "^3.0.0"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs": "^4.10.0"
+  }
+}
